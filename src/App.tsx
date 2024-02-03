@@ -1,5 +1,7 @@
 import StyledComponentsDemo from './components/StyledComponentsDemo'
-import StyledTwinMacroDemo from './components/StyledTwinMacroDemo'
+import StyledTailwindCSSDemo from './components/StyledTailwindCSSDemo'
+import PureSCSSDemo from './components/PureSCSSDemo'
+import StyledSCSSDemo from './components/StyledSCSSDemo'
 
 // you can also use styled-components without twin.macro
 import { styled } from 'styled-components'
@@ -18,11 +20,19 @@ function App() {
         <>
             <div className="my-12">
                 <p className="text-lg font-bold my-5">Styled Components + twin.macro</p>
-                <StyledTwinMacroDemo />
+                <StyledTailwindCSSDemo />
             </div>
             <div className="my-12">
                 <DemoTitle>Styled Components only</DemoTitle>
                 <StyledComponentsDemo />
+            </div>
+            <div className="my-12">
+                <DemoTitle>Pure SCSS</DemoTitle>
+                <PureSCSSDemo />
+            </div>
+            <div className="my-12">
+                <DemoTitle>Styled Components + Sass/SCSS</DemoTitle>
+                <StyledSCSSDemo />
             </div>
         </>
     )
