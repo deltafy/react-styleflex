@@ -18,19 +18,19 @@ import './App.css'
 function App() {
     return (
         <>
-            <div className="my-12">
+            <div className="my-12 dark:text-white">
                 <p className="text-lg font-bold my-5">Styled Components + twin.macro</p>
                 <StyledTailwindCSSDemo />
             </div>
-            <div className="my-12">
+            <div className="my-12 dark:text-white">
                 <DemoTitle>Styled Components only</DemoTitle>
                 <StyledComponentsDemo />
             </div>
-            <div className="my-12">
+            <div className="my-12 dark:text-white">
                 <DemoTitle>Pure SCSS</DemoTitle>
                 <PureSCSSDemo />
             </div>
-            <div className="my-12">
+            <div className="my-12 dark:text-white">
                 <DemoTitle>Styled Components + Sass/SCSS</DemoTitle>
                 <StyledSCSSDemo />
             </div>
