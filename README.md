@@ -236,7 +236,7 @@ const ButtonGroup = styled.div`
 
     ${flexTemplate}
 
-    btn {
+    .btn {
         @include create-btn-template(#fff, 0, 0.25rem);
 
         &-simple {
